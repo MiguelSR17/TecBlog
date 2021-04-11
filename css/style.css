@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: rgb(221, 221, 221);
+}
+h1, h2 {
+    margin: 0;
+}
+/*Cabeçalho*/
+header {
+    background: rgb(255, 175, 25);
+}
+#tituloPage {
+    text-align: center;
+    padding: 20px;
+}
+#tituloPage h1 {
+    font-size: 2.5em;
+    color: rgb(73, 73, 73);
+}
+#tituloPage h1 span {
+    color: white;
+}
+#links {
+    text-align: center;
+    padding-bottom: 20px;
+}
+#links a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+#links a:hover {
+    color: rgb(255, 175, 25);
+    background: white;
+}
+/*Conteúdo*/
+#container-post {
+    float: left;
+    margin-top: 25px;
+}
+.post {
+    background: white;
+    width: 640px;
+    margin-left: 200px;
+    padding: 20px;
+}
+.titulo-post h2, .leia-mais {
+    color: rgb(255, 175, 25);
+}
+.titulo-post p {
+    margin-top: 5px;
+    font-size: 0.9em;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding-bottom: 10px;
+}
+.post picture a {
+    text-decoration: none;
+}
+.post picture a:hover {
+    text-decoration: underline;
+}
+/*Área Lateral - Postagens Recentes*/
+#container-area-lateral {
+    float: right;
+    position: relative;
+    right: 195px;
+    margin-top: 25px;
+    width: 250px;
+}
+.postlateral {
+    background: white;
+    padding: 0 15px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+.conteudo-lateral h3 {
+    background: rgb(221, 221, 221);
+    color: rgb(112, 112, 112);
+    padding: 8px;
+    font-size: 1em;
+    margin: 0;
+    margin-top: 10px;
+}
+.conteudo-lateral p {
+    font-size: 0.8em;
+    margin: 5px;
+}
+.conteudo-lateral a {
+    text-decoration: none;
+    font-size: 0.8em;
+    margin-left: 5px;
+    color: rgb(255, 175, 25);
+}
+.conteudo-lateral a:hover {
+    text-decoration: underline;
+}
+/*Área Lateral - Categorias*/
+#links-categorias {
+    font-size: 1.1em;
+}
+footer {
+    background: rgb(189, 189, 189);
+    padding: 15px 50px;
+    text-align: center;
+    width: 860px;
+    margin: 40px 200px;
+    position: relative;
+    top: 20px;
+    clear: both; /*Limpa o fluxo e insere o footer na posição padrão*/
+}
